@@ -1,0 +1,81 @@
+.BlackRec {
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: auto;
+  min-height: min-content;
+  height: 9rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 1rem;
+}
+.BlackRec p {
+  margin: 0;
+}
+.MainText {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 120% */
+}
+@media (max-width: 376px) {
+  .BlackRec {
+    display: flex;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    padding: 0.7rem;
+    margin: 0.3rem;
+    width: auto;
+    min-height: min-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 1rem;
+  }
+  .BlackRec p {
+    margin: 0;
+  }
+  .MainText {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 120% */
+  }
+}
+@media (max-width: 415px) {
+  .BlackRec {
+    display: flex;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    padding: 0.7rem;
+    margin: 1rem 0.2rem;
+    width: auto;
+    min-height: min-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 1rem;
+    height: 7rem;
+  }
+  .BlackRec p {
+    margin: 0;
+  }
+  .MainText {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; /* 120% */
+  }
+}

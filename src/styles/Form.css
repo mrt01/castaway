@@ -1,0 +1,119 @@
+.Form {
+  width: max-content;
+  display: flex;
+  border-radius: 2rem;
+  background: #000;
+}
+.Form_left {
+  padding: 2rem;
+}
+.Form_title {
+  color: #118da8;
+}
+.Form_Main {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem; /* 110% */
+  letter-spacing: 0.1rem;
+  margin: 0;
+}
+.Form_right {
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+}
+input {
+  background-color: #191919;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #191919;
+  width: 20rem;
+  margin: 0.5rem 0;
+}
+button {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 376px) {
+  .Form {
+    width: min-content;
+    display: flex;
+    border-radius: 1rem;
+    background: #000;
+  }
+  .Form_left {
+    padding: 1rem;
+  }
+  .Form_title {
+    color: #118da8;
+  }
+  .Form_Main {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 110% */
+    letter-spacing: 0.1rem;
+    margin: 0;
+  }
+  .Form_right {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+  }
+  input {
+    background-color: #191919;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #191919;
+    width: 10rem;
+    margin: 0.5rem 0;
+  }
+  button {
+    margin: 0.5rem 0;
+  }
+}
+@media (max-width: 415px) {
+  .Form {
+    width: min-content;
+    display: flex;
+    border-radius: 1rem;
+    background: #000;
+  }
+  .Form_left {
+    padding: 1rem;
+  }
+  .Form_title {
+    color: #118da8;
+  }
+  .Form_Main {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 110% */
+    letter-spacing: 0.1rem;
+    margin: 0;
+  }
+  .Form_right {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+  }
+  input {
+    background-color: #191919;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #191919;
+    width: 10rem;
+    margin: 0.5rem 0;
+  }
+  button {
+    margin: 0.5rem 0;
+  }
+}

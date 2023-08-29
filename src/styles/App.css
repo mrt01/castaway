@@ -1,0 +1,123 @@
+body {
+  background: #191919;
+  color: #ffffff;
+}
+.App {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App_header {
+  display: inline-flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: baseline;
+  width: auto;
+}
+.App_header_Right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  width: 30rem;
+}
+.App_header_Left {
+  display: flex;
+  width: 30rem;
+  justify-content: flex-end;
+}
+.App_header_Left nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.App_header_Left nav a:hover {
+  transform: scale(1.1);
+  color: cornflowerblue;
+}
+section {
+  padding: 1rem 4rem;
+}
+nav {
+  display: flex;
+
+  height: auto;
+  padding: 1.25rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+@media (max-width: 376px) {
+  .App {
+    width: 100%;
+  }
+  .App_header {
+    display: inline-flex;
+    padding: 0.5rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: baseline;
+    width: auto;
+    font-size: 0.75rem;
+  }
+  .App_header_Right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    width: auto;
+  }
+  .App_header_Left {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+  }
+  nav {
+    display: flex;
+  
+    height: auto;
+    padding: 1.25rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+@media (max-width: 415px) {
+  .App {
+    width: 100%;
+  }
+  .App_header {
+    display: inline-flex;
+    padding: 0.5rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: baseline;
+    width: auto;
+    font-size: 0.75rem;
+  }
+  .App_header_Right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    width: auto;
+  }
+  .App_header_Left {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+  }
+  nav {
+    display: flex;
+  
+    height: auto;
+    padding: 1.25rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
